@@ -1,4 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0-or-later */
+#hello i have done some changes
 /*
  * include/linux/clk/at91_pmc.h
  *
@@ -17,6 +18,7 @@
 
 #define	AT91_PMC_SCER		0x00			/* System Clock Enable Register */
 #define	AT91_PMC_SCDR		0x04			/* System Clock Disable Register */
+
 
 #define	AT91_PMC_SCSR		0x08			/* System Clock Status Register */
 #define		AT91_PMC_PCK		(1 <<  0)		/* Processor Clock */
